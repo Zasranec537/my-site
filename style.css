@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    width: 100%;
+    height: 725px;
+    background: url('images/bg_image.jpg');
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+
+}
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 206px;
+
+}
+
+
+.main-title {
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 79px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-button {
+    margin-top: 32px;
+    padding: 26px 22px;
+    flex-shrink: 0;
+    color: #1E2E3D;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.main-subtitle {
+    color: #FFF;
+    font-size: 27px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.section-title-block {
+    margin-top: 72px;
+    color: #000;
+    font-size: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.person-info-area {
+    margin-top: 90px;
+    color: #000;
+    font-size: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.person-info-text {
+    color: #000;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.about-me-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title-bloke {
+    margin: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-info-bloke {
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 97px;
+}
+
+.person-info-area {
+    max-width: 1380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.person-dash {
+    width: 110px;
+    height: 3px;
+    flex-shrink: 0;
+}
+
+.person-dash-white {
+    width: 110px;
+    height: 3px;
+    flex-shrink: 0;
+    color: white;
+}
+
+.footer {
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ips-logo {
+    margin-top: 81px;
+
+}
+
+.footer-text {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    font-size: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-info-text {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.footer-messanger {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media screen and (max-width:1420px) {
+    .phone-text{
+        margin-right: 40px;
+    }
+    .about-me-block{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .person-info-bloke {
+        align-items: flex-start;
+    }
+    .person-info-image{
+        max-width: 250px;
+    }
+    .person-info-area{
+        margin: left 36px;
+    }
+}
+    
